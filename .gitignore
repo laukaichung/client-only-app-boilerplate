@@ -1,0 +1,20 @@
+# Project exclude paths
+/dist/
+/dist-server/
+/node_modules/
+/.cache/
+/.idea/
+# Project exclude paths
+/src/client/component/form/CheckBoxField.jsx
+/src/client/component/form/ErrorLabel.jsx
+/src/client/component/form/InputLabel.jsx
+/src/client/component/form/SelectField.jsx
+/src/client/component/form/StarRatingField.jsx
+/src/client/component/form/TextAreaField.jsx
+/src/client/component/FrameworkWrapper.jsx
+/src/client/component/WhiteSpace.jsx
+/src/client/component/WingBlank.jsx
+/src/client/context/AccordionProvider.jsx
+/src/client/context/ThemeProvider.jsx
+/src/client/model/CustomType.js
+/src/client/util/ObjUtil.js

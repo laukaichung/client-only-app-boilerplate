@@ -15,10 +15,12 @@ module.exports = merge(commonConfig, {
   devServer: {
     hot: true, // enable HMR on the server
     port: 8081,
+    disableHostCheck: true,
     // https://stackoverflow.com/questions/26203725/how-to-allow-for-webpack-dev-server-to-allow-entry-points-from-react-router
     historyApiFallback: true,
-    // Make the devServer to read the static folder "/public"
-    contentBase: path.join(__dirname, '../../public'),
+    // Make the devServer to read the static folder "/dist"
+    // Remember to compile your sass files to ./dist folder using the filter watcher by Webstorm.
+    contentBase: path.join(__dirname, '../../dist'),
     compress: true,
   },
   devtool: '#inline-source-map',
